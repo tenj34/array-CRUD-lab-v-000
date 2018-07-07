@@ -9,7 +9,8 @@ end
 def add_element_to_end_of_array(array, element)
   litty = ["1","2","3","4"]
 
-  litty << "5"
+  #litty << "5"
+  litty.push("5")
 end
 
 def add_element_to_start_of_array(array, element)
